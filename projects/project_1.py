@@ -1,4 +1,4 @@
-def band_name_generator():
+def main():
     print('Hello! Welcome to the Band Name Generator!')
     city_name = input('What city did you grow up in?\n')
     pet_name = input('What is a name for a pet?\n')
