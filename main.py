@@ -1,9 +1,9 @@
-#import project_1
-import project_2
-#Run Day 1 Project code
+import importlib
+
 def main():
-    #project_1.band_name_generator()
-    project_2.tip_calculator()
+    project = importlib.import_module(
+        '.project_' + input('What project do you want to run? '), package='projects')
+    project.main()
 
 if __name__ == '__main__':
     main()
